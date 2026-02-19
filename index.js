@@ -6,7 +6,7 @@ const respuestas = require('./respuestas.json');
 app.use(express.json());
 
 // ✅ 1. TOKEN LARGO DE FACEBOOK
-const PAGE_ACCESS_TOKEN = "EAAX3QnCnj44BQ6k5ebHE1Ue2I5E1RGUwRiHw5cA65PP4VCRtSBsvEa4v8YZCjDpnW67TeHVlNdHTMkEAZAgYZArNyZCwEPjxNH1mdZCZC93LwVaIM29tGaUzRodyM78h3YUo8MEIGQGMAodKDDINY8EGHETcfTnJNeQQtZB6C0fUxZCOMai6NdIVMDZAx1yDgzXDiZBQlL3rnr8wZDZD";
+const PAGE_ACCESS_TOKEN = "EAAX3QnCnj44BQ0ggD84NGNP269zeaiApTFcjDwRxH8dFN9MWJZBT9cB4P7IxFz89t3CHVzaNr1i3fFXf0p2ywMr9BJpg9RfXJfdmAnzZCrFZCHZCKlD3d4WF5AWdukoEWiA7Awwicsn3X6NtSKhkO1TzQZA9Y3GiBjKHqQaU0V3lxEDlfftcH7I9Pt1jZBYL7b8BZBTDKJcAQZDZD";
 
 // --- VERIFICACIÓN PARA FACEBOOK ---
 app.get('/webhook', (req, res) => {
@@ -89,4 +89,5 @@ const PORT = process.env.PORT || 10000;
 app.listen(PORT, '0.0.0.0', () => {
     console.log(`🚀 Servidor abierto y escuchando en puerto ${PORT}`);
 });
+
 
