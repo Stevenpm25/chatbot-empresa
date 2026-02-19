@@ -84,10 +84,15 @@ function enviarMensaje(sender_psid, respuesta) {
         .catch(err => {
             console.error('❌ Error al enviar:', err.response ? err.response.data : err.message);
         });
+    // Cambia las últimas líneas de tu archivo por estas:
+const PORT = process.env.PORT || 10000; // Render usa el puerto 10000 por defecto
+app.listen(PORT, '0.0.0.0', () => {
+    console.log(`🚀 Servidor abierto y escuchando en puerto ${PORT}`);
 }
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`🚀 Servidor vivo en puerto ${PORT}`));
+
 
 
 
