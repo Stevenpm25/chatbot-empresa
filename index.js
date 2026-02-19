@@ -5,12 +5,11 @@ const respuestas = require('./respuestas.json');
 
 app.use(express.json());
 
-// ✅ 1. PEGA AQUÍ EL TOKEN LARGO (El que empieza por EA...)
+// ✅ 1. TOKEN LARGO DE FACEBOOK
 const PAGE_ACCESS_TOKEN = "EAAX3QnCnj44BQ6k5ebHE1Ue2I5E1RGUwRiHw5cA65PP4VCRtSBsvEa4v8YZCjDpnW67TeHVlNdHTMkEAZAgYZArNyZCwEPjxNH1mdZCZC93LwVaIM29tGaUzRodyM78h3YUo8MEIGQGMAodKDDINY8EGHETcfTnJNeQQtZB6C0fUxZCOMai6NdIVMDZAx1yDgzXDiZBQlL3rnr8wZDZD";
 
 // --- VERIFICACIÓN PARA FACEBOOK ---
 app.get('/webhook', (req, res) => {
-    // ✅ 2. AQUÍ VA EL TOKEN CORTO (El que pusiste en el cuadro de Facebook)
     const VERIFY_TOKEN = "mi_token_secreto_123"; 
     
     const mode = req.query['hub.mode'];
@@ -33,7 +32,6 @@ app.post('/webhook', (req, res) => {
 
     if (body.object === 'page') {
         body.entry.forEach(entry => {
-            // Verifica que existan mensajes antes de intentar leerlos
             if (entry.messaging && entry.messaging[0]) {
                 let webhook_event = entry.messaging[0];
                 let sender_psid = webhook_event.sender.id;
@@ -84,17 +82,11 @@ function enviarMensaje(sender_psid, respuesta) {
         .catch(err => {
             console.error('❌ Error al enviar:', err.response ? err.response.data : err.message);
         });
-    // Cambia las últimas líneas de tu archivo por estas:
-const PORT = process.env.PORT || 10000; // Render usa el puerto 10000 por defecto
-app.listen(PORT, '0.0.0.0', () => {
-    console.log(`🚀 Servidor abierto y escuchando en puerto ${PORT}`);
 }
 
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`🚀 Servidor vivo en puerto ${PORT}`));
-
-
-
-
-
+// --- INICIO DEL SERVIDOR ---
+const PORT = process.env.PORT || 10000; 
+app.listen(PORT, '0.0.0.0', () => {
+    console.log(`🚀 Servidor abierto y escuchando en puerto ${PORT}`);
+});
 
