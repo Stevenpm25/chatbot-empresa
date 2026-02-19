@@ -10,7 +10,7 @@ const PAGE_ACCESS_TOKEN = "TU_TOKEN_LARGO_AQUI";
 
 // --- VERIFICACIÓN PARA FACEBOOK ---
 app.get('/webhook', (req, res) => {
-    const VERIFY_TOKEN = "mi_token_secreto_123";
+    const VERIFY_TOKEN = "EAAX3QnCnj44BQx9ZA6hrPZAsPTxuZBfCzepRsds7pcMIxg7fo1oWze9ILenWNilYQAZAgoXiYC77Ro2Pz2gIVbeOEekPsZAugtHeiRuBs7N9JdVq1jnH4IgI2r4xCkZCD4URca4uAY3RA2EFhbZCIXRhhiWBuR6RgBGvKtWg8mjRFHQQB1Dqw6NFJWRIk6vQQ9Hm4kBGbdvLwZDZD";
     const mode = req.query['hub.mode'];
     const token = req.query['hub.verify_token'];
     const challenge = req.query['hub.challenge'];
@@ -82,3 +82,4 @@ function enviarMensaje(sender_psid, respuesta) {
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`🚀 Servidor vivo en puerto ${PORT}`));
+
