@@ -6,7 +6,7 @@ const respuestas = require('./respuestas.json');
 app.use(express.json());
 
 // ✅ 1. PEGA AQUÍ EL TOKEN LARGO (El que empieza por EA...)
-const PAGE_ACCESS_TOKEN = "EAAX3QnCnj44BQx9ZA6hrPZAsPTxuZBfCzepRsds7pcMIxg7fo1oWze9ILenWNilYQAZAgoXiYC77Ro2Pz2gIVbeOEekPsZAugtHeiRuBs7N9JdVq1jnH4IgI2r4xCkZCD4URca4uAY3RA2EFhbZCIXRhhiWBuR6RgBGvKtWg8mjRFHQQB1Dqw6NFJWRIk6vQQ9Hm4kBGbdvLwZDZD";
+const PAGE_ACCESS_TOKEN = "EAAX3QnCnj44BQ6k5ebHE1Ue2I5E1RGUwRiHw5cA65PP4VCRtSBsvEa4v8YZCjDpnW67TeHVlNdHTMkEAZAgYZArNyZCwEPjxNH1mdZCZC93LwVaIM29tGaUzRodyM78h3YUo8MEIGQGMAodKDDINY8EGHETcfTnJNeQQtZB6C0fUxZCOMai6NdIVMDZAx1yDgzXDiZBQlL3rnr8wZDZD";
 
 // --- VERIFICACIÓN PARA FACEBOOK ---
 app.get('/webhook', (req, res) => {
@@ -88,5 +88,6 @@ function enviarMensaje(sender_psid, respuesta) {
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`🚀 Servidor vivo en puerto ${PORT}`));
+
 
 
