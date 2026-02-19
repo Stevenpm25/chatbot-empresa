@@ -1,0 +1,30 @@
+{
+  "bienvenida": "¡Hola! 👋 Claro que sí, tenemos disponibilidad. Para darte la información exacta y fotos, ¿qué producto específico te interesa? (Ej: GoPro 12, RAM DDR4, Jeans, Disco SSD, etc.)",
+  "productos": [
+    {
+      "keywords": ["gopro 12", "hero 12"],
+      "respuesta": "¡Hola! 👋 Sí, la HERO 12 Black está disponible (10/10). Graba en 5.3K con HDR y estabilizador HyperSmooth 6.0. Ubicación: Cra 30 #53-73 frente al Campín. 🚀"
+    },
+    {
+      "keywords": ["gopro 10", "hero 10"],
+      "respuesta": "¡Hola! 👋 La HERO 10 Black está en $770.000 (Oportunidad). Graba en 5.3K y tiene HyperSmooth 4.0. Ubicación: Cra 30 #53-73 frente al Campín. 💎"
+    },
+    {
+      "keywords": ["ram", "ddr4", "memoria"],
+      "respuesta": "¡Claro! RAM DDR4 para portátil: 8GB (3200): $150.000, 8GB (2666): $135.000, 16GB (3200): $270.000. Marcas: Adata, Samsung, Kingston. Se entregan ensayadas. 💻"
+    },
+    {
+      "keywords": ["ssd", "disco", "m.2", "nvme"],
+      "respuesta": "Discos Sólidos: M.2 SATA 256GB: $150.000, NVMe 256GB: $120.000, NVMe 512GB: $200.000. Punto de entrega: Frente al Estadio El Campín. 🚀"
+    },
+    {
+      "keywords": ["jeans", "pantalones", "koaj"],
+      "respuesta": "Jeans KOAJ Originales a $46.000 la unidad o 3 por $120.000. 👖 Tallas 28 a 38. ¿Qué talla buscas para enviarte fotos? ✨"
+    },
+    {
+      "keywords": ["modelia", "arriendo", "apartamento"],
+      "respuesta": "🔥 Apartaestudio en Modelia para estrenar. Balcón, iluminado, $1'650.000 (incluye póliza Sura). Requisitos: Certificado laboral y extractos. 🏡"
+    }
+  ],
+  "ubicacion_default": "📍 Estamos en la Cra 30 #53-73, frente al Estadio El Campín. Atendemos con cita previa. WhatsApp: 311 291 1800."
+}
