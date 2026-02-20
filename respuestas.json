@@ -1,40 +1,153 @@
 {
   "mensajes_sistema": {
-    "bienvenida": "¡Hola! 👋 Bienvenido. Soy Lola, tu asistente virtual. Cuéntame, ¿qué producto te interesa o qué estás buscando hoy? (Ej: cámaras, memoria RAM, discos SSD, jeans, apartamento en Modelia...)",
-    "ubicacion_campin": "📍 Nuestra tienda física está en la Cra 30 #53-73, frente al Estadio El Campín. Atendemos con cita previa. WhatsApp: 311 291 1800."
+    "bienvenida": "¡Hola! 👋 Sigue disponible. Me encuentro frente al campín (Cra 30 #53-73), puedes pasar hoy mismo. ¿Qué producto te interesa?",
+    "ubicacion_campin": "📍 Me ubico en Bogotá, en la Carrera 30 #53-73, Nicolás de Federman (frente al Estadio El Campín, costado norte-sur, media cuadra antes del cubo de Colsubsidio). Por favor avísame al 311 291 1800 o al 319 379 9580 media hora antes de venir por que a veces salgo a hacer entregas."
   },
   "productos": [
     {
-      "categoria": "preguntas_generales",
+      "categoria": "tecnologia_camaras",
       "items": [
         {
-          "keywords": ["precio", "cuanto vale", "cuánto vale", "costo", "que vale", "a como", "a cómo", "valor"],
-          "respuesta": "Tenemos excelentes precios, pero varían según el producto. ¿De qué artículo te gustaría saber el precio exacto? (Ej: precio GoPro 10, precio de RAM, valor de apartamento)."
-        }
-      ]
-    },
-    {
-      "categoria": "inmobiliaria_basico",
-      "items": [
-        {
-          "keywords": ["modelia", "arriendo", "apartamento", "apto", "apartaestudio", "alquiler"],
-          "respuesta": "🔥 Tenemos un espectacular Apartaestudio en Modelia para estrenar. Súper iluminado y con balcón. El canon es de $1'650.000 (ya incluye el pago de póliza Sura). Pregúntame si quieres saber los requisitos o si tiene parqueadero. 🏡"
-        }
-      ]
-    },
-    {
-      "categoria": "inmobiliaria_detalles",
-      "items": [
-        {
-          "keywords": ["parqueadero", "garaje", "moto", "carro", "estacionamiento"],
-          "respuesta": "🚗 Sobre el apartaestudio en Modelia: No cuenta con parqueadero privado, pero hay opciones seguras muy cerca para dejar tu vehículo. ¿Te interesaría conocer los requisitos para arrendar?"
+          "keywords": ["gopro 12", "hero 12"],
+          "respuesta": "¡Hola! 👋 Sí, aún la tengo disponible. Está impecable (10/10), casi sin uso. Es la HERO 12 Black, con video 5.3K HDR y estabilizador HyperSmooth 6.0. 🚀\n\nIncluye Batería Enduro y accesorios originales. La puedes revisar y ensayar en la Cra 30 #53-73. Para darte el precio exacto y confirmar disponibilidad, dame un momento y ya te respondo personalmente. 😉"
         },
         {
-          "keywords": ["requisitos", "papeles", "documentos", "codeudor", "sura", "poliza", "póliza"],
-          "respuesta": "📝 Los requisitos para arrendar en Modelia son por medio de aseguradora (SURA): Certificado laboral, 3 últimos extractos bancarios y no estar reportado en centrales de riesgo. ¡Es muy fácil! ¿Te interesa iniciar el trámite?"
+          "keywords": ["gopro 11", "hero 11"],
+          "respuesta": "¡Hola! 👋 Sí, aún la tengo disponible e impecable (10/10). Graba en 5.3K a 60 fps con HyperSmooth 5.0 y Horizon Lock. 🚀\n\nNos vemos directamente frente al Estadio El Campín (Cra 30 #53-73), la ensayas con calma y cerramos trato. Dame un segundo y ya entro al chat para confirmarte el precio de oportunidad. 📸"
+        },
+        {
+          "keywords": ["gopro 7", "hero 7"],
+          "respuesta": "¡Hola! 👋 Sí, está disponible. Es la más práctica por su tamaño en cubo; sumergible sin carcasas y graba 4K a 60 fps con HyperSmooth. 🎬\n\nLente perfecto y batería rinde hasta 3 horas. Dame un momento y te confirmo el precio por aquí mismo para que pases a verla hoy. ✨"
+        },
+        {
+          "keywords": ["session 4"],
+          "respuesta": "¡Hola! Sobre la Session 4: con la batería básica dura aprox 1 hora, y con la otra de 1.5 a 2 horas (apagando pantallas y sin 4K).\n\nTambién tengo la Hero 10 Black + 1 Batería Original en $820.000, o dos combos cualquiera en $900.000. ¿Cuál te interesa? Te hablo en un momento para asesorarte. 🎥"
+        },
+        {
+          "keywords": ["clip", "pinza", "360"],
+          "respuesta": "¡Hola! 👋 Sí, tengo disponibles Clips Pinza 360° para GoPro. Ideal para grabar en primera persona (POV) en morrales o gorras. Agarre ultra fuerte y compatible con todas las cámaras. 🎒📸\n\n📍 Cra 30 #53-73. Dame un momento y te confirmo el precio para que pases hoy mismo. 🚀"
         }
       ]
     },
+    {
+      "categoria": "computadores",
+      "items": [
+        {
+          "keywords": ["ram", "ddr4", "memoria"],
+          "respuesta": "¡Claro que sí! RAM DDR4 para portátil (Se entregan ensayadas, marcas Adata, Samsung, Kingston, etc.):\n*️⃣ 8GB (3200): $150.000 | (2666): $135.000 | (2400): $120.000\n*️⃣ 16GB (3200): $270.000 | (2666): $255.000 | (2400): $240.000\n\nRecoge en El Campín o domicilio. ¿Cuál capacidad te interesa? 💻"
+        },
+        {
+          "keywords": ["ssd", "m.2", "nvme", "disco solido", "almacenamiento"],
+          "respuesta": "¡Hola! 👋 Discos sólidos disponibles (Kingpec y Walram):\n*️⃣ M.2 SATA 256GB: $130.000 / $150.000\n*️⃣ NVMe 256GB: $120.000\n*️⃣ NVMe 512GB: $200.000\n*️⃣ NVMe 1TB: $400.000\n\nEntregas Cra 30 #53-73 o domicilio (3193799580). Todos 100% probados y funcionando. 🚀"
+        }
+      ]
+    },
+    {
+      "categoria": "ropa_y_calzado",
+      "items": [
+        {
+          "keywords": ["zapatos", "tenis", "calzado"],
+          "respuesta": "👟 ¡Hola! Sí, están disponibles. Tenemos KOAJ Originales ($60.000 a $80.000) y Réplica Importada ($120.000). Dime tu talla para enviarte los modelos disponibles. 🤩"
+        },
+        {
+          "keywords": ["volcom", "buzos volcom"],
+          "respuesta": "¡Hola! Sí, tenemos buzos Volcom originales en $180.000 cada uno. Talla M (foto 1 y azul) y Talla L (otros). ¡Solo nos quedan 5! 🧥"
+        },
+        {
+          "keywords": ["cargo", "bota ancha"],
+          "respuesta": "¡Hola! Sí, está disponible. Pantalón cargo bota ancha en pana suave. Talla única (adapta a 8, 10, 12). Colores: Negro, rojo, palo de rosa, verde esmeralda. 🤩"
+        },
+        {
+          "keywords": ["boxer", "boxers"],
+          "respuesta": "¡Hola! 👋 Sí están disponibles. Boxers marca Koaj en tallas XS, S, M y XL a $15.000 la unidad. Indícanos tu talla para enviarte modelos. 🩳"
+        },
+        {
+          "keywords": ["jeans", "pantalon koaj", "pantalones koaj"],
+          "respuesta": "👖 Jeans KOAJ Originales a $46.000 LA UNIDAD o promo de 3x$120.000! Tallas 28 a 38 (entubado, bota recta, licrados). Envíanos tu talla para mandarte fotos. ✨"
+        },
+        {
+          "keywords": ["lote jeans", "100 jeans"],
+          "respuesta": "👖 ¡Lote completo! 100 Jeans KOAJ 100% originales y sin defectos por $3'800.000. Tallas 28 a 38. Contáctanos al 3053999346. 💰"
+        },
+        {
+          "keywords": ["lili pink", "lenceria", "pantis"],
+          "respuesta": "💖 Vendo Lote 77 Und. Lencería Lili Pink (61 Pantis, 10 Brasiers, 4 Vestidos de Baño, 2 Pijamas). Nuevas. Vendo unidad o lote. Dame un momento y te doy detalles. 👙"
+        },
+        {
+          "keywords": ["remate", "inventario remate"],
+          "respuesta": "👕 ¡ENORME INVENTARIO EN REMATE! Camisas, camisetas, chaquetas, tenis. Todo NUEVO con etiqueta. Dame un momento para pasarte el catálogo. 👟"
+        }
+      ]
+    },
+    {
+      "categoria": "deportes_y_ejercicio",
+      "items": [
+        {
+          "keywords": ["bandas", "pedales", "cuerdas de resistencia"],
+          "respuesta": "¡Hola! 👋 Sí, disponible para entrega inmediata. Banda con pedales antideslizante, ideal para entrenar todo el cuerpo en casa. 📈🔥\n\nComo los precios varían por promoción, dame un momento, ya entro al chat y te confirmo el precio exacto y cuadramos el envío hoy mismo. 🛵💨"
+        },
+        {
+          "keywords": ["suelo pelvico", "ejercitador", "skinny"],
+          "respuesta": "¡Hola! 👋 Sí, el ejercitador de suelo pélvico está disponible. Reforzado y ergonómico, ideal para glúteos y piernas. 🍑💪\n\nDame un segundito, ya entro al chat para darte el precio de oferta de hoy y coordinar la entrega en Bogotá. ⏳"
+        },
+        {
+          "keywords": ["rueda abdominal", "roller slide"],
+          "respuesta": "¡Hola! 👋 Sí, disponibles. Equipos robustos, silenciosos y seguros para entrenar abdomen en casa. 🎡✨\n\nDame un momento y ya te respondo personalmente para darte el precio con el tapete para rodillas incluido. 🤝"
+        },
+        {
+          "keywords": ["tabla para flexiones", "plug & press"],
+          "respuesta": "¡Hola! 👋 Sí, disponible. La tabla con sistema 'Plug & Press' para entrenar tren superior en casa. ABS ultra resistente. 🌟\n\nDame un momento, reviso stock y te doy el precio exacto por aquí mismo. 🏋️‍♂️"
+        },
+        {
+          "keywords": ["mancuernas", "pesas", "9kg", "cromadas", "25kg", "15kg"],
+          "respuesta": "¡Hola! Sí, el kit de mancuernas está disponible para entrega inmediata. Vienen en su maletín organizador. 💪✨\n\n¿Te interesa el de 15kg, 25kg o las suaves de 9kg? Escríbeme tu opción, dame un segundo y ya te atiendo personalmente para darte el mejor precio. 🏋️‍♂️"
+        }
+      ]
+    },
+    {
+      "categoria": "varios_y_hogar",
+      "items": [
+        {
+          "keywords": ["arrastre", "kit de arrastre", "ns 200", "duke"],
+          "respuesta": "¡Hola! Sí, Kits de Arrastre de Acero C45 con cadena reforzada a $110.000. Tenemos para NS 200, Duke 200, Dominar 400/250, Apache 200. ¿Para qué moto lo necesitas? 🏍️"
+        },
+        {
+          "keywords": ["cacerola", "olla"],
+          "respuesta": "Aún está disponible. $10.000 la unidad. ¿Cuántas necesitas o cuánto ofreces por las 10 para que las recojas hoy mismo? 🍳"
+        },
+        {
+          "keywords": ["puff", "puffs"],
+          "respuesta": "✨ ¡Dos Puffs Rectangulares Negros en Excelente Estado! (30x76x36 cm). Cra 30 #53-73. Contáctame al 3193799580. 🪑"
+        },
+        {
+          "keywords": ["alforjas", "maleta de tanque", "tank bag"],
+          "respuesta": "🏍️ Set de Alforjas 4 piezas: Maleta de tanque desmontable, Base porta-celular, Alforjas laterales (32L) y 3 cobertores impermeables. Usadas pero 100% funcionales. Dame un momento y te doy el precio. 🎒"
+        },
+        {
+          "keywords": ["comedor", "mesa aristas", "sala de juntas"],
+          "respuesta": "¡Hola! El Comedor ARISTAS (10 puestos, vidrio templado, sillas de cuero) está en precio de remate por venta rápida en Modelia. 🍽️\n\nDado que hay muchos interesados, dame un momento y ya hablo contigo para agendar una cita. ¡Quien concrete primero se lo lleva! ⏳"
+        },
+        {
+          "keywords": ["apartamento", "modelia", "apto", "apartaestudio"],
+          "respuesta": "🔥 ¡ESTRENA APARTAESTUDIO! En Modelia (3er piso), balcón, cocina integral, parqueadero moto. Canon: $1'650.000 (Incluye póliza Sura, sin reportes). 🏡\n\nRequisitos: Certificado laboral, 3 últimos extractos, desprendibles. ¿Te interesa ver el video del lugar? ☀️"
+        }
+      ]
+    },
+    {
+      "categoria": "CERRAR_CHAT_Y_PASAR_A_HUMANO",
+      "items": [
+        {
+          "keywords": ["envio", "envío", "contraentrega", "domicilio"],
+          "respuesta": "Para el envío contraentrega dame los siguientes datos:\n- Nombre de quien recibe\n- Dirección de entrega\n- Celular\n- Horario de recepción\n\nYa mismo entro al chat a procesar tu envío. ¡Gracias por tu atención, te esperamos nuevamente pronto! 🚚✨"
+        },
+        {
+          "keywords": ["tengo una pregunta", "duda", "asesor", "humano", "quiero verlo", "si quiero", "comprar", "lo llevo", "me interesa"],
+          "respuesta": "¡Perfecto! Ya mismo entro al chat a responderte personalmente, resolver tus dudas y coordinar la entrega. 🤝\n\nPor favor, déjame tu WhatsApp por si me demoro un poco o escríbeme directo al 3193799580 o 3112911800. ¡Gracias por tu atención, te esperamos nuevamente pronto! ✨"
+        }
+      ]
+    }
+  ]
+}
     {
       "categoria": "tecnologia_general",
       "items": [
@@ -85,3 +198,4 @@
     }
   ]
 }
+
