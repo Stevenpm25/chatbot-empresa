@@ -5,18 +5,27 @@
   },
   "productos": [
     {
-      "categoria": "tecnologia_camaras",
+      "categoria": "tecnologia_general",
       "items": [
         {
-          "keywords": ["gopro 12", "hero 12"],
+          "keywords": ["gopro", "camara", "cámara", "go pro", "hero"],
+          "respuesta": "Tenemos disponibles las cámaras GoPro HERO 12 y la HERO 11. ¿De cuál de las dos te gustaría saber precios y características? 📸"
+        }
+      ]
+    },
+    {
+      "categoria": "tecnologia_camaras_especifico",
+      "items": [
+        {
+          "keywords": ["12", "gopro 12", "hero 12", "la 12"],
           "respuesta": "¡Hola! 👋 Sí, aún la tengo disponible. Está impecable (10/10), casi sin uso. Es la HERO 12 Black, con video 5.3K HDR y estabilizador HyperSmooth 6.0. 🚀\n\nIncluye Batería Enduro y accesorios originales. La puedes revisar y ensayar en la Cra 30 #53-73. Para darte el precio exacto y confirmar disponibilidad, dame un momento y ya te respondo personalmente. 😉"
         },
         {
-          "keywords": ["gopro 11", "hero 11"],
+          "keywords": ["11", "gopro 11", "hero 11", "la 11"],
           "respuesta": "¡Hola! 👋 Sí, aún la tengo disponible e impecable (10/10). Graba en 5.3K a 60 fps con HyperSmooth 5.0 y Horizon Lock. 🚀\n\nNos vemos directamente frente al Estadio El Campín (Cra 30 #53-73), la ensayas con calma y cerramos trato. Dame un segundo y ya entro al chat para confirmarte el precio de oportunidad. 📸"
         },
         {
-          "keywords": ["gopro 7", "hero 7"],
+          "keywords": ["7", "gopro 7", "hero 7"],
           "respuesta": "¡Hola! 👋 Sí, está disponible. Es la más práctica por su tamaño en cubo; sumergible sin carcasas y graba 4K a 60 fps con HyperSmooth. 🎬\n\nLente perfecto y batería rinde hasta 3 horas. Dame un momento y te confirmo el precio por aquí mismo para que pases a verla hoy. ✨"
         },
         {
@@ -37,7 +46,7 @@
           "respuesta": "¡Claro que sí! RAM DDR4 para portátil (Se entregan ensayadas, marcas Adata, Samsung, Kingston, etc.):\n*️⃣ 8GB (3200): $150.000 | (2666): $135.000 | (2400): $120.000\n*️⃣ 16GB (3200): $270.000 | (2666): $255.000 | (2400): $240.000\n\nRecoge en El Campín o domicilio. ¿Cuál capacidad te interesa? 💻"
         },
         {
-          "keywords": ["ssd", "m.2", "nvme", "disco solido", "almacenamiento"],
+          "keywords": ["ssd", "m.2", "nvme", "disco solido", "almacenamiento", "disco duro"],
           "respuesta": "¡Hola! 👋 Discos sólidos disponibles (Kingpec y Walram):\n*️⃣ M.2 SATA 256GB: $130.000 / $150.000\n*️⃣ NVMe 256GB: $120.000\n*️⃣ NVMe 512GB: $200.000\n*️⃣ NVMe 1TB: $400.000\n\nEntregas Cra 30 #53-73 o domicilio (3193799580). Todos 100% probados y funcionando. 🚀"
         }
       ]
@@ -141,59 +150,8 @@
           "respuesta": "Para el envío contraentrega dame los siguientes datos:\n- Nombre de quien recibe\n- Dirección de entrega\n- Celular\n- Horario de recepción\n\nYa mismo entro al chat a procesar tu envío. ¡Gracias por tu atención, te esperamos nuevamente pronto! 🚚✨"
         },
         {
-          "keywords": ["tengo una pregunta", "duda", "asesor", "humano", "quiero verlo", "si quiero", "comprar", "lo llevo", "me interesa"],
+          "keywords": ["tengo una pregunta", "duda", "asesor", "humano", "quiero verlo", "si quiero", "comprar", "lo llevo", "me interesa", "pagar", "nequi"],
           "respuesta": "¡Perfecto! Ya mismo entro al chat a responderte personalmente, resolver tus dudas y coordinar la entrega. 🤝\n\nPor favor, déjame tu WhatsApp por si me demoro un poco o escríbeme directo al 3193799580 o 3112911800. ¡Gracias por tu atención, te esperamos nuevamente pronto! ✨"
-        }
-      ]
-    }
-  ]
-}
-  ]
-}
-      "categoria": "tecnologia_general",
-      "items": [
-        {
-          "keywords": ["gopro", "camara", "cámara", "go pro", "hero"],
-          "respuesta": "Tenemos disponibles las cámaras GoPro HERO 12 y la HERO 10. ¿De cuál de las dos te gustaría saber precios y características? 📸"
-        }
-      ]
-    },
-    {
-      "categoria": "tecnologia_especifico",
-      "items": [
-        {
-          "keywords": ["12", "gopro 12", "hero 12", "la 12"],
-          "respuesta": "¡Hola! 👋 La HERO 12 Black está disponible (Estado 10/10). Graba en 5.3K con HDR y estabilizador HyperSmooth 6.0. ¿Quieres que te contactemos para comprarla? 🚀"
-        },
-        {
-          "keywords": ["10", "gopro 10", "hero 10", "la 10"],
-          "respuesta": "¡Hola! 👋 La HERO 10 Black está en OPORTUNIDAD a $770.000. Graba en 5.3K y tiene HyperSmooth 4.0. ¿Te interesa llevarla hoy mismo? 💎"
-        },
-        {
-          "keywords": ["ram", "ddr4", "memoria"],
-          "respuesta": "¡Claro! RAM DDR4 para portátil (Ensayadas):\n🔹 8GB (2666MHz): $135.000\n🔹 8GB (3200MHz): $150.000\n🔹 16GB (3200MHz): $270.000\nMarcas: Adata, Samsung, Kingston. ¿Qué capacidad necesitas? 💻"
-        },
-        {
-          "keywords": ["ssd", "disco", "m.2", "nvme", "disco duro", "almacenamiento", "solido", "sólido"],
-          "respuesta": "Discos Sólidos disponibles:\n🔹 M.2 SATA 256GB: $150.000\n🔹 NVMe 256GB: $120.000\n🔹 NVMe 512GB: $200.000\n¿Para qué equipo lo estás buscando? 🚀"
-        }
-      ]
-    },
-    {
-      "categoria": "ropa",
-      "items": [
-        {
-          "keywords": ["jeans", "pantalones", "koaj", "pantalon", "ropa"],
-          "respuesta": "¡Súper promo! Jeans KOAJ Originales a $46.000 la unidad o lleva 3 por $120.000. 👖 Tallas disponibles de la 28 a la 38. ¿Qué talla usas para mostrarte estilos? ✨"
-        }
-      ]
-    },
-    {
-      "categoria": "intencion_compra_final",
-      "items": [
-        {
-          "keywords": ["comprar", "quiero comprar", "lo quiero", "me interesa", "lo llevo", "la llevo", "donde pago", "nequi", "daviplata", "cuenta", "bancolombia", "para comprar", "asesor", "humano", "transferencia", "pagar"],
-          "respuesta": "¡Excelente elección! 🎉 Ya nos contactaremos contigo por este medio para continuar con tu compra, coordinar la entrega y pasarte los datos de pago. Si prefieres agilizar el proceso, déjanos aquí mismo tu número de WhatsApp. 📲"
         }
       ]
     }
