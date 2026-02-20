@@ -47,12 +47,19 @@ app.post('/webhook', (req, res) => {
     }
 });
 
-// --- LÓGICA DEL BOT ---
+// --- LÓGICA DEL BOT (ACTUALIZADA PARA SER PRUDENTE) ---
 function manejarMensaje(sender_psid, mensajeRecibido) {
     let textoUsuario = mensajeRecibido.toLowerCase();
-    let respuestaBot = respuestas.mensajes_sistema.bienvenida;
+    let respuestaBot = ""; 
     let encontrado = false;
 
+    // 1. Si el cliente saluda, le damos la bienvenida
+    if (textoUsuario === "hola" || textoUsuario === "buenas" || textoUsuario === "buenos dias" || textoUsuario === "buenas tardes") {
+        respuestaBot = respuestas.mensajes_sistema.bienvenida;
+        encontrado = true;
+    }
+
+    // 2. Buscar en los productos
     respuestas.productos.forEach(categoria => {
         categoria.items.forEach(item => {
             if (item.keywords.some(key => textoUsuario.includes(key.toLowerCase()))) {
@@ -62,8 +69,16 @@ function manejarMensaje(sender_psid, mensajeRecibido) {
         });
     });
 
+    // 3. Buscar ubicación específica si no ha encontrado producto y no es un saludo simple
     if (!encontrado && (textoUsuario.includes("donde") || textoUsuario.includes("ubicacion"))) {
         respuestaBot = respuestas.mensajes_sistema.ubicacion_campin;
+        encontrado = true;
+    }
+
+    // 4. SI NO ENCUENTRA NADA, SE QUEDA CALLADO (No interrumpe)
+    if (!encontrado) {
+        console.log(`🤫 Silencio. El cliente dijo algo fuera del libreto: "${textoUsuario}"`);
+        return; // Esto detiene al bot y no envía ningún mensaje
     }
 
     console.log(`📩 Mensaje de ${sender_psid}: ${textoUsuario}`);
@@ -89,5 +104,4 @@ const PORT = process.env.PORT || 10000;
 app.listen(PORT, '0.0.0.0', () => {
     console.log(`🚀 Servidor abierto y escuchando en puerto ${PORT}`);
 });
-
 
